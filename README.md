@@ -19,10 +19,14 @@ This project fine-tunes the **Qwen 2.5 7B** Large Language Model (LLM) to adopt 
 ├── test.py                 # Local CLI Chatbot (Runs model locally)
 ├── modal_deploy.py         # Modal backend deployment script
 ├── fine_tune.py            # Training script (QLoRA)
+├── base_model.py           # Baseline model testing
 ├── evaluation.py           # Model evaluation metrics
+├── extract_loss.py         # Helper to extract training logs
 ├── visual.py               # Visualization generation
 ├── requirements.txt        # Dependencies for Streamlit App (Frontend)
 ├── requirements_training.txt # Dependencies for Training & Local Inference
+├── evaluation_report.json  # Pre-computed evaluation metrics
+├── training_loss.json      # Pre-computed training loss data
 ├── data/                   # Training datasets
 └── sherlock-finetuned/     # Adapter weights (not in repo, generated after training)
 ```
